@@ -15,6 +15,7 @@ public class StatusTest {
         context.setStatus(new PutingState());
 
 
+
         context.carry();
 
         context.put();
