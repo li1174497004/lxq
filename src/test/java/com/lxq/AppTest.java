@@ -345,6 +345,28 @@ public class AppTest {
         System.out.println(list);
     }
 
+
+    @Test
+    public void test7(){
+        ArrayList<Integer> list = new ArrayList<>();
+        list.add(1);
+        list.add(2);
+        list.add(3);
+        list.add(4);
+
+        Iterator<Integer> listIterator = list.iterator();
+        while (listIterator.hasNext()){
+            if (listIterator.next()==3){
+                listIterator.remove();
+            }
+        }
+
+        System.out.println(list);
+
+    }
+
+
+
 }
 
 
