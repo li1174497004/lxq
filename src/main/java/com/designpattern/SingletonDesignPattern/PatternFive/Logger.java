@@ -8,9 +8,11 @@ package com.designpattern.SingletonDesignPattern.PatternFive;
  *     1.最简单的单例模式。
  */
 public enum Logger {
-      INSTANCE;
-     public void doSomeThing(){
-     }
+    INSTANCE;
+
+    public void doSomeThing() {
+    }
+
     public static void main(String[] args) {
         //证明获取的是同一个对象。
         System.out.println(Logger.INSTANCE);
