@@ -23,6 +23,7 @@ public class SimpleFactoryOne {
             } else if ("properties".equalsIgnoreCase(configFormat)) {
                 parser = new PropertiesRuleConfigParser();
             }
+            return parser;
 
     }
 
