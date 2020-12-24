@@ -37,7 +37,6 @@ public class ComputerEngineer {
         // this.mainboard.installCPU();
     }
 
-
     public static void main(String[]args){
         //创建装机工程师对象
         ComputerEngineer cf = new ComputerEngineer();
