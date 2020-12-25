@@ -9,9 +9,5 @@ import com.designpattern.ProxyDesignPattern.UserInterface;
  */
 public class Client {
 
-    public static void main(String[] args) {
-        UserProxy userProxy = new UserProxy();
-        UserInterface u = (UserInterface)userProxy.creatProxyUser(new User());
-        u.say("贾世辉。。。。");
-    }
+
 }
